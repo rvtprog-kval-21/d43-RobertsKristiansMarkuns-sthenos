@@ -1,4 +1,4 @@
-# d43-RobertsKristiansMarkuns-HomeWorkoutMobileApp
+# d43-RobertsKristiansMarkuns-sthenos
 
 ## Projekta apraksts
 
