@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sthenos">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sthenos"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".equipment.ParalletteBars" />
+        <activity android:name=".equipment.PullUpBar" />
+        <activity android:name=".equipment.Resistancebands" />
+        <activity android:name=".equipment.WeightVest" />
+        <activity android:name=".equipment.WristWraps" />
+
+        <activity android:name=".indoor.abs.AbSelection"/>
+        <activity android:name=".indoor.abs.AbsPlank"/>
+        <activity android:name=".indoor.abs.AbsSidePlank"/>
+        <activity android:name=".indoor.abs.Crunches"/>
+        <activity android:name=".indoor.abs.Front_lever"/>
+        <activity android:name=".indoor.abs.HangingL_Sit"/>
+        <activity android:name=".indoor.abs.L_Sit"/>
+        <activity android:name=".indoor.abs.MountainClimbers"/>
+        <activity android:name=".indoor.abs.SideCrunches"/>
+        <activity android:name=".indoor.abs.V_Sit"/>
+        <activity android:name=".indoor.abs.WindshieldWipers"/>
+        <activity android:name=".indoor.abs.LegsToBar"/>
+
+        <activity android:name=".indoor.balance.BalanceSelection"/>
+        <activity android:name=".indoor.balance.Handstand"/>
+        <activity android:name=".indoor.balance.BentLegHS"/>
+        <activity android:name=".indoor.balance.CrowHS"/>
+        <activity android:name=".indoor.balance.DiamondHS"/>
+        <activity android:name=".indoor.balance.ForearmHS"/>
+        <activity android:name=".indoor.balance.HSOnABar"/>
+        <activity android:name=".indoor.balance.OADiamondHS"/>
+        <activity android:name=".indoor.balance.OAFlagHS"/>
+        <activity android:name=".indoor.balance.OAStraddleHS"/>
+        <activity android:name=".indoor.balance.OAStraightHS"/>
+        <activity android:name=".indoor.balance.PikeHS"/>
+        <activity android:name=".indoor.balance.ScorpionHS"/>
+        <activity android:name=".indoor.balance.StraddleHS"/>
+        <activity android:name=".indoor.balance.TigerBendHS"/>
+        <activity android:name=".indoor.balance.WallAssistedHS"/>
+
+        <activity android:name=".indoor.cardio.CardioSelection"/>
+        <activity android:name=".indoor.cardio.JumpRope"/>
+        <activity android:name=".indoor.cardio.Boxing"/>
+        <activity android:name=".indoor.cardio.Dancing"/>
+        <activity android:name=".indoor.cardio.Rowing"/>
+        <activity android:name=".indoor.cardio.RuningOnATreadmill"/>
+        <activity android:name=".indoor.cardio.Swimming"/>
+
+        <activity android:name=".indoor.jump.JumpSelection"/>
+        <activity android:name=".indoor.jump.StarJumps"/>
+        <activity android:name=".indoor.jump.BoxJumps"/>
+        <activity android:name=".indoor.jump.DepthJumps"/>
+
+        <activity android:name=".indoor.squats.SquatSelection"/>
+        <activity android:name=".indoor.squats.SquatsWeighted"/>
+
+        <activity android:name=".indoor.weights.WeightSelection"/>
+        <activity android:name=".indoor.weights.Benchpress"/>
+        <activity android:name=".indoor.weights.BicepCurls"/>
+        <activity android:name=".indoor.weights.Deadlift"/>
+        <activity android:name=".indoor.weights.WeightedDips"/>
+        <activity android:name=".indoor.weights.WeightedPullUps"/>
+        <activity android:name=".indoor.weights.WeightedPushUps"/>
+
+        <activity android:name=".indoor.pushups.InclinePushUp" />
+        <activity android:name=".indoor.pushups.KneePushUp"/>
+        <activity android:name=".indoor.pushups.RegularPushUp"/>
+        <activity android:name=".indoor.pushups.DeclinePushUp"/>
+        <activity android:name=".indoor.pushups.DiamondPushUp"/>
+        <activity android:name=".indoor.pushups.DeepPbarPushUp"/>
+        <activity android:name=".indoor.pushups.SlowPushUp"/>
+        <activity android:name=".indoor.pushups.ExplosiveClapPushUp"/>
+        <activity android:name=".indoor.pushups.PikePushUp"/>
+        <activity android:name=".indoor.pushups.ArcherPushUps"/>
+        <activity android:name=".indoor.pushups.PseudoPushUp"/>
+        <activity android:name=".indoor.pushups.WidePseudoPushUps"/>
+        <activity android:name=".indoor.pushups.WAHandstandPushUp"/>
+        <activity android:name=".indoor.pushups.BackClapPushUp"/>
+        <activity android:name=".indoor.pushups.SupermanPushUp"/>
+        <activity android:name=".indoor.pushups.OneArmPushUp"/>
+        <activity android:name=".indoor.pushups.TuckPlanchePushUp"/>
+        <activity android:name=".indoor.pushups.HandstandPushUp"/>
+        <activity android:name=".indoor.pushups.DeepHSPU"/>
+        <activity android:name=".indoor.pushups.ClapHSPU"/>
+        <activity android:name=".indoor.pushups.NintyDegreeHSPU"/>
+        <activity android:name=".indoor.pushups.StraddlePlanchePushUp"/>
+        <activity android:name=".indoor.pushups.FullPlanchePushUp"/>
+        <activity android:name=".indoor.pushups.ArcherFullPlanchePushUp"/>
+        <activity android:name=".indoor.pushups.FullPlanchePushUpFTG"/>
+        <activity android:name=".indoor.pushups.DeepFullPlanchePushUp"/>
+        <activity android:name=".indoor.pushups.PushUpSelection" />
+
+        <activity android:name=".indoor.pullups.PullUpSelection"/>
+        <activity android:name=".indoor.pullups.AustralianBKPullUps"/>
+        <activity android:name=".indoor.pullups.NegativePullUp"/>
+        <activity android:name=".indoor.pullups.JumpPullUps"/>
+        <activity android:name=".indoor.pullups.NegativeExplosiveAUPullUp"/>
+        <activity android:name=".indoor.pullups.NegativeExplosiveDeclinePullUp"/>
+        <activity android:name=".indoor.pullups.RegularPullUp"/>
+        <activity android:name=".indoor.pullups.CloseGripPullUp"/>
+        <activity android:name=".indoor.pullups.WideGripPullUp"/>
+        <activity android:name=".indoor.pullups.CommandoPullUp"/>
+        <activity android:name=".indoor.pullups.PullUpHoldNinetyDegreeHold"/>
+        <activity android:name=".indoor.pullups.ExplosivePullUp"/>
+        <activity android:name=".indoor.pullups.ArcherPullUp"/>
+        <activity android:name=".indoor.pullups.LSitPullUp"/>
+        <activity android:name=".indoor.pullups.GripSwitchPullUp"/>
+        <activity android:name=".indoor.pullups.InvertedLSitPullUp"/>
+        <activity android:name=".indoor.pullups.OneArmPullUp"/>
+        <activity android:name=".indoor.pullups.TuckToFrontLeverPullUp"/>
+        <activity android:name=".indoor.pullups.HumanFlagPullUp"/>
+        <activity android:name=".indoor.pullups.BackLeverPullUp"/>
+        <activity android:name=".indoor.pullups.FrontLeverPullUp"/>
+
+        <activity android:name=".mobility.upperbody.UpperBodySelection" />
+        <activity android:name=".mobility.upperbody.NeckStretch"/>
+        <activity android:name=".mobility.upperbody.ShoulderMobility"/>
+        <activity android:name=".mobility.upperbody.PalmStretch"/>
+        <activity android:name=".mobility.upperbody.WristStretch"/>
+        <activity android:name=".mobility.upperbody.SideStretch"/>
+
+        <activity android:name=".mobility.lowerbody.LowerBodySelection" />
+        <activity android:name=".mobility.lowerbody.Hamstring"/>
+        <activity android:name=".mobility.lowerbody.ThighStretch"/>
+        <activity android:name=".mobility.lowerbody.HipFexStretch"/>
+        <activity android:name=".mobility.lowerbody.HamStrPalmOnFloor"/>
+        <activity android:name=".mobility.lowerbody.HamStrPike"/>
+        <activity android:name=".mobility.lowerbody.HamStrLegOnGround"/>
+        <activity android:name=".mobility.lowerbody.HamStrLegInAir"/>
+        <activity android:name=".mobility.lowerbody.Calves"/>
+
+        <activity android:name=".outdoor.abs.AbSelectionOutdoor"/>
+        <activity android:name=".outdoor.abs.LegsToBarOutdoor"/>
+        <activity android:name=".outdoor.abs.AbsPlankOutdoor"/>
+        <activity android:name=".outdoor.abs.AbsSidePlankOutdoor"/>
+        <activity android:name=".outdoor.abs.CrunchesOutdoor"/>
+        <activity android:name=".outdoor.abs.Front_leverOutdoor"/>
+        <activity android:name=".outdoor.abs.HangingL_SitOutdoor"/>
+        <activity android:name=".outdoor.abs.L_SitOutdoor"/>
+        <activity android:name=".outdoor.abs.MountClimbOutdoor"/>
+        <activity android:name=".outdoor.abs.SideCrunchOutdoor"/>
+        <activity android:name=".outdoor.abs.VSitOutdoor"/>
+        <activity android:name=".outdoor.abs.WindShildWipeOutdoor"/>
+
+        <activity android:name=".outdoor.balance.BalanceSelectionOutdoor"/>
+        <activity android:name=".outdoor.balance.HandstandOutdoor"/>
+        <activity android:name=".outdoor.balance.BLegHSOutdoor"/>
+        <activity android:name=".outdoor.balance.WallAHSOutdoor"/>
+        <activity android:name=".outdoor.balance.TigerBHSOutdoor"/>
+        <activity android:name=".outdoor.balance.ScorpHSOutdoor"/>
+        <activity android:name=".outdoor.balance.StradHSOutdoor"/>
+        <activity android:name=".outdoor.balance.PikeHSOutdoor"/>
+        <activity android:name=".outdoor.balance.CrowHSOutdoor"/>
+        <activity android:name=".outdoor.balance.DiamondHSOutdoor"/>
+        <activity android:name=".outdoor.balance.ForearmHSOutdoor"/>
+        <activity android:name=".outdoor.balance.HSOABOutdoor"/>
+        <activity android:name=".outdoor.balance.OAStraightHSOutdoor"/>
+        <activity android:name=".outdoor.balance.OAStradHSOutdoor"/>
+        <activity android:name=".outdoor.balance.OADHSOutdoor"/>
+        <activity android:name=".outdoor.balance.OAFHSOutdoor"/>
+
+        <activity android:name=".outdoor.cardio.CardioSelectionOutdoor"/>
+        <activity android:name=".outdoor.cardio.Runing"/>
+        <activity android:name=".outdoor.cardio.BikeRiding"/>
+        <activity android:name=".outdoor.cardio.JumpRopeOutdoor"/>
+        <activity android:name=".outdoor.cardio.SwimmingOutdoor"/>
+
+        <activity android:name=".outdoor.jump.JumpSelectionOutdoor"/>
+        <activity android:name=".outdoor.jump.StarJumpsOutside"/>
+
+        <activity android:name=".outdoor.squats.SquatSelectionOutdoor"/>
+        <activity android:name=".outdoor.squats.SquatOutside"/>
+
+        <activity android:name=".outdoor.plank.PlankSelection" />
+        <activity android:name=".outdoor.plank.RegularPlank"/>
+        <activity android:name=".outdoor.plank.TuckPlanche"/>
+        <activity android:name=".outdoor.plank.StraddlePlanche"/>
+        <activity android:name=".outdoor.plank.FullPlanche"/>
+
+        <activity android:name=".outdoor.pullups.PullUpSelectionOutdoor"/>
+        <activity android:name=".outdoor.pullups.ArcherPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.AustralianBKPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.BackLeverPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.CloseGripPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.CommandoPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.ExplosivePullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.FrontLeverPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.GripSwitchPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.HumanFlagPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.InvertedLSitPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.JumpPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.LSitPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.NegativePullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.NegExplosiveAUPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.NegExploDecPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.OneArmPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.PUHoldNinetyHoldOutdoor"/>
+        <activity android:name=".outdoor.pullups.RegularPullUpOutdoor"/>
+        <activity android:name=".outdoor.pullups.TuckToFLPUOutdoor"/>
+        <activity android:name=".outdoor.pullups.WideGripPUOutdoor"/>
+
+        <activity android:name=".outdoor.pushups.PushUpSelectionOutdoor" />
+        <activity android:name=".outdoor.pushups.ArchFullPlanchePushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.ArchPushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.BackClapPushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.ClapHSPUOutdoor"/>
+        <activity android:name=".outdoor.pushups.DeclinePushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.DeepFullPlanchePushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.DeepHSPUOutdoor"/>
+        <activity android:name=".outdoor.pushups.DeepPbarPushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.DiamondPushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.ExploClapPushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.FulPlanchePushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.FulPlanchPushFTGOutdoor"/>
+        <activity android:name=".outdoor.pushups.HSPUOutdoor"/>
+        <activity android:name=".outdoor.pushups.InclinePushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.KneePushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.NintyDegHSPUOutdoor"/>
+        <activity android:name=".outdoor.pushups.OneArmPushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.PikePushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.PseudoPushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.RegularPushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.SlowPushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.StraddlePlanchePushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.SupermanPushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.TuckPlanchePushUpOutdoor"/>
+        <activity android:name=".outdoor.pushups.WAHSPUOutdoor"/>
+        <activity android:name=".outdoor.pushups.WidePseudoPushUpOutdoor"/>
+
+        <activity android:name=".notification.NotificantonActivity"/>
+
+        <activity android:name=".gadgets.Stopwatch" />
+        <activity android:name=".gadgets.RepRangeRandomizer" />
+
+        <activity android:name=".database.UserProfile" />
+        <activity android:name=".database.SignUpActivity"/>
+        <activity android:name=".database.LoginActivity" />
+
+        <activity android:name=".todo.AddModifyTask" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".todo.ToDoActivity"/>
+
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Equipment" />
+        <activity android:name=".IndoorActivity" />
+        <activity android:name=".OutdoorActivity" />
+        <activity android:name=".MobilityActivity" />
+        <activity android:name=".MainActivity" />
+
+        <receiver android:name=".notification.AlertReceiver" />
+        <receiver android:name=".todo.AlertReceiverToDoList"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
