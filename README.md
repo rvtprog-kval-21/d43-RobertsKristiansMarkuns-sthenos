@@ -43,7 +43,7 @@ Uz datora ar emulatoru:
 to var pārbaudīt ar CMD vai run, CMD ierakstot 'systeminfo.exe' un run ierakstot 'msinfo32' pēc tam jāatrod sadaļa "Virtualization enabled in Firmware",
 ja blakus ir "Yes" tālāk nekas nav jādara, ja ir "No" tad jāseko šai [Pamācibai](https://www.youtube.com/watch?v=MOuTxfzCvMY);
 3. XAMPP jāpalaiž MySQL un Apache, ja ir aizņemts, kāds ports tad tos var nomainīt šādi:
-- config(augšeja labajā stūri)->Service Port settings un tad nomaina Apache vai MySQL, ja kāds ir aizņemts;
+    - config(augšeja labajā stūri)->Service Port settings un tad nomaina Apache vai MySQL, ja kāds ir aizņemts;
 4. XAMPP mapē 'htdocs' jāievieto mape 'SthenosPHP';
 5. Tad Android studio atver mapi database,
 kur LoginActivity.java(111 koda rinda) un SignUpActivity.java(122 koda rinda) jānomaina "IPv4Adress" pret savu IPv4 adresi,
