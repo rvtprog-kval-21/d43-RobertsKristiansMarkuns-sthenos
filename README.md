@@ -52,7 +52,7 @@ kuru var atrast CMD ierakstot 'ipconfig';
 
 Uz **Android** mobilās ierīces:
 1. Lejupielādes [Links](https://drive.google.com/file/d/1psPFnzMi-HjviDeoUUrzyjiY--bD-Vpr/view?usp=sharing);
-2. Lai tiktu aplikācija nospiest Login ekrāna uz cilvēciņa logo.
+2. Lai tiktu aplikācija jānospiež Login ekrāna uz cilvēciņa logo.
 
 
 
